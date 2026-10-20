@@ -57,12 +57,12 @@ Estimated prototype cost: about **60,800 FCFA** (see the report, section 6.3).
 
 Wiring diagram (made with Fritzing):
 
-![Wiring diagram](docs/images/wiring-diagram-fritzing.jpg)
+![Wiring diagram](Docs/Images/wiring-diagram-fritzing.jpg)
 
 <details>
 <summary>Inside the enclosure</summary>
 
-![Inside the prototype](docs/images/prototype-inside.jpg)
+![Inside the prototype](Docs/Images/prototype-inside.jpg)
 
 </details>
 
@@ -85,7 +85,7 @@ Wiring diagram (made with Fritzing):
 
 Before building the hardware, the control logic was validated in **Proteus 8** with an **Arduino Uno**, a potentiometer, a servo, an LCD and three LEDs. Proteus has no tilt model, so the "measured" angle is simulated in the code and corrected towards the target in steps of 2°. See `firmware/simulation_arduino_uno/`.
 
-![Proteus schematic](docs/images/proteus-simulation.jpg)
+![Proteus schematic](Docs/Images/proteus-simulation.jpg)
 
 ## Limitations and future work
 
@@ -113,7 +113,7 @@ Before building the hardware, the control logic was validated in **Proteus 8** w
 - **RABARY Haja Tahina**
 - **AVOCEGAMOU Lionel Noukpo**
 
-Supervisor: **DAKO Komlan Dominique Tavio**, EAMAC. Full details, theory and costs are in the [report](docs/Rapport_PFE_EAMAC_2025.pdf) (in French). A French version of this README is available: [README.fr.md](README.fr.md).
+Supervisor: **DAKO Komlan Dominique Tavio**, EAMAC. Full details, theory and costs are in the [report](Docs/Rapport_PFE_EAMAC_2025.pdf) (in French). A French version of this README is available: [README.fr.md](README.fr.md).
 
 ## License
 

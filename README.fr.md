@@ -7,8 +7,8 @@
 Un dispositif à base d’**ESP32** qui mesure l’orientation d’un plan avec un capteur inertiel et la corrige automatiquement, **en site (élévation)** et **en azimut**, jusqu’à atteindre l’angle de consigne fixé par l’utilisateur, avec des potentiomètres ou **à distance par Bluetooth**.
 
 <p align="center">
-  <img src="docs/images/prototype-front.jpg" alt="Prototype, vue de face avec l’écran LCD 20x4" width="48%">
-  <img src="docs/images/prototype-side.jpg" alt="Prototype, vue de côté" width="48%">
+  <img src="Docs/Images/prototype-front.jpg" alt="Prototype, vue de face avec l’écran LCD 20x4" width="48%">
+  <img src="Docs/Images/prototype-side.jpg" alt="Prototype, vue de côté" width="48%">
 </p>
 
 <!-- À FAIRE : ajouter ici le lien de la démo vidéo, par exemple :  🎥 **Démo vidéo :** https://... -->
@@ -57,12 +57,12 @@ Coût estimé du prototype : environ **60 800 FCFA** (voir le rapport, section 6
 
 Schéma de câblage (réalisé avec Fritzing) :
 
-![Schéma de câblage](docs/images/wiring-diagram-fritzing.jpg)
+![Schéma de câblage](Docs/Images/wiring-diagram-fritzing.jpg)
 
 <details>
 <summary>Intérieur du boîtier</summary>
 
-![Intérieur du prototype](docs/images/prototype-inside.jpg)
+![Intérieur du prototype](Docs/Images/prototype-inside.jpg)
 
 </details>
 
@@ -85,7 +85,7 @@ Schéma de câblage (réalisé avec Fritzing) :
 
 Avant la réalisation, la logique de commande a été validée sous **Proteus 8** avec une **carte Arduino Uno**, un potentiomètre, un servomoteur, un écran LCD et trois LED. Proteus ne sait pas simuler une inclinaison : l’angle « mesuré » est donc simulé dans le code et corrigé vers la cible par pas de 2°. Voir `firmware/simulation_arduino_uno/`.
 
-![Schéma Proteus](docs/images/proteus-simulation.jpg)
+![Schéma Proteus](Docs/Images/proteus-simulation.jpg)
 
 ## Limites et perspectives
 
@@ -113,7 +113,7 @@ Avant la réalisation, la logique de commande a été validée sous **Proteus 8*
 - **RABARY Haja Tahina**
 - **AVOCEGAMOU Lionel Noukpo**
 
-Encadrant : **DAKO Komlan Dominique Tavio**, EAMAC. La théorie, les détails et les coûts sont dans le [rapport](docs/Rapport_PFE_EAMAC_2025.pdf).
+Encadrant : **DAKO Komlan Dominique Tavio**, EAMAC. La théorie, les détails et les coûts sont dans le [rapport](Docs/Rapport_PFE_EAMAC_2025.pdf).
 
 ## Licence
 

@@ -7,8 +7,8 @@
 An **ESP32-based device** that measures the orientation of a plane with an inertial sensor and automatically corrects it, in **elevation (site)** and **azimuth**, until it matches a target angle set by the user — with a potentiometer or **remotely over Bluetooth**.
 
 <p align="center">
-  <img src="docs/images/prototype-front.jpg" alt="Prototype, front view with the 20x4 LCD" width="48%">
-  <img src="docs/images/prototype-side.jpg" alt="Prototype, side view" width="48%">
+  <img src="Docs/Images/prototype-front.jpg" alt="Prototype, front view with the 20x4 LCD" width="48%">
+  <img src="Docs/Images/prototype-side.jpg" alt="Prototype, side view" width="48%">
 </p>
 
 <!-- TODO: add the video demo link here, e.g.:  🎥 **Video demo:** https://... -->
